@@ -20,7 +20,7 @@ def get_requirements(file_path):
 
 setup(
 name='M-health project',
-developer=' Adarsh','lokesh'
+developer=' Adarsh'.
 packages=find_packages(),
 install_requires=get_requirements('requirements.txt')
 )
